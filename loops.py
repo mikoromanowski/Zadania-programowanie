@@ -6,20 +6,20 @@ for num in range(1500, 2701):
     if num % 7 == 0 and num % 5 == 0:
         result.append(num)
 
-print("Numbers divisible by 7 and multiples of 5 between 1500 and 2700:")
-print(result)
+print("Numbers divisible by 7 and multiples of 5 between 1500 and 2700:", result)
+
 
 '''
 # 2. Write a Python program to construct the following pattern, using a nested for loop.
-'* 
-'* * 
-'* * * 
-'* * * * 
-'* * * * * 
-'* * * * 
-'* * * 
-'* * 
-'*
+#* 
+#* * 
+#* * * 
+#* * * * 
+#* * * * * 
+#* * * * 
+#* * * 
+#* * 
+#*
 rows = 5
 
 for i in range(1, rows * 2):
@@ -36,10 +36,10 @@ for char in range(len(word) - 1, -1, -1):
 print("\n")
 
 # 4. Write a Python program to count the number of even and odd numbers in a series of numbers
-'Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
-'Expected Output :
-'Number of even numbers : 5
-'Number of odd numbers : 4
+#Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+#Expected Output :
+#Number of even numbers : 5
+#Number of odd numbers : 4
 
 numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 
